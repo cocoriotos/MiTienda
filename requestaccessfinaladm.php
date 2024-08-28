@@ -14,7 +14,7 @@
 		<HR/>
 	</header>
 	<body>		
-	  		<form id="login" action="accessemailFinaltiendaadmin.php" method="POST" autocomplete="off"> <!-- Form to send access email request login  application admin-->
+	  		<form id="login" action="tiendaaccessfinal.php" method="POST" autocomplete="off"> <!-- Form to send access email request login  application admin-->
 			<center><font color=lightblue id="form_title"><strong>Formato de Requerimiento de Acceso</strong></center></font><br>	
 			  <div class="inputdata">
 		        <font color="white" id="form_title1"><strong>Name</strong></font><!-- Requester information for access  -->

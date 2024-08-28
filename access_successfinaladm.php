@@ -1,6 +1,6 @@
 <html>
 
-<?php /*Developed by julián González Bucheli, Dell SDS LATAM PMO*/
+<?php /*Developed by julián González Bucheli*/
 
 //Defining local procedure variables and assigning POST form values into
 	$username=$_POST['username'];

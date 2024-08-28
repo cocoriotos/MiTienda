@@ -1,30 +1,39 @@
 <html lang="us"> <!-- Page language-->
 	<head>	
 		  <meta charset="iso-8559-1"/>
-		  <meta name="Description" content="Mi Tienda"/> 
-		  <meta name="keywords" content="Mi Tienda"/>
+		  <meta name="Description" content="Partner Tracker Tool"/> 
+		  <meta name="keywords" content="Partner Tracker Tool"/>
 		  <title>Mi Tienda</title>  <!-- page tab title-->
 		  <link rel="stylesheet" href="style_sheet.css"/> <!-- styles framework, template and Fonts-->
+		  <?php 
+
+		?>
 	</head>
 	<header>
 		<HR id="HR"/>	<!-- Header title  --> <!-- -->
-			<center><h1><font  color="#E1EAF7">Mi Tienda | Modulo Administración </font></h1></center>
+			<center><h1><font  color="#E1EAF7">Mi Tienda | Modulo Administracion </font></h1></center>
 		<HR/>
 	</header>	
-	<body>
+	  <body>
 		<form id="login" action="access_successfinaladm.php" method="POST" autocomplete="off"> <!-- Form to login into application with authentication in database and valid username -->
-			    <center><font color=lightblue id="form_title"><strong>Autenticación para la aplicación</strong></font></center><br>	
+			    <center><font color=lightblue id="form_title"><strong>Autenticación para la aplicacion</strong></font></center><br>	
                 <center><img id="img_login" center SRC="accessicon.png"></img></center></br> <!-- Login Icon  -->
 				<div class="inputdata1">
 					<center><font id= "form_title" color="white"><strong>Usuario</strong></font></center><br>
 					<center><input id="username1" type="text" name="username"  placeholder="Nombre de Usuario registrado" required ></center><br> <!-- Login   -->
 				<br>
-				</div >
+				</div>
 				<div class="inputdata1">
 					<center><font id= "form_title" color="white"><strong>Contraseña</strong></font></center><br>
 					<center><input id="username1" type="password" name="password1" required ></center><br> <!-- Login   -->
 				<br>
-				</div >
+				</div>
+				<div class="inputdata1">
+					<center><font id= "form_title" color="white"><strong>Nombre de la Tienda</strong></font></center><br>
+					<center><input id="username1" type="text" name="tiendaname" required ></center><br> <!-- Login   -->
+				<br>
+				</div>
+
 				<center><input id="loginbutton" type="submit" value="Ingresar"></center>
 		</form>
 		<form id="login" action="requestaccessfinal.php" method="POST" autocomplete="off"> <!-- Form to request access-->
